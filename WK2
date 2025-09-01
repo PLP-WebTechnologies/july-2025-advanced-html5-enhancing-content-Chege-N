@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enhanced HTML5 Content & Form</title>
+  <meta name="description" content="A demonstration of HTML5 lists, tables, media, and advanced form features with native validation.">
+</head>
+<body>
+  <!-- Page Header -->
+  <header>
+    <h1>HTML5 Content & Forms Showcase</h1>
+    <p>This page demonstrates lists, tables, media embedding, and advanced HTML5 form features.</p>
+  </header>
+
+  <!-- Content Section with Lists -->
+  <section>
+    <h2>Favorite Web Development Topics</h2>
+    <ul>
+      <li>Semantic HTML5</li>
+      <li>Accessibility Best Practices</li>
+      <li>SEO Optimization</li>
+      <li>Forms & Validation</li>
+    </ul>
+  </section>
+
+  <!-- Table Example -->
+  <section>
+    <h2>Learning Schedule</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <caption>Weekly Study Plan</caption>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Topic</th>
+          <th>Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>HTML & Accessibility</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>Forms & Validation</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>SEO & Semantics</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Media Section -->
+  <section>
+    <h2>Media Examples</h2>
+    <figure>
+      <img src="example-image.jpg" alt="Example placeholder image" width="300">
+      <figcaption>A sample image embedded in HTML5.</figcaption>
+    </figure>
+
+    <audio controls>
+      <source src="example-audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <video width="320" height="240" controls>
+      <source src="example-video.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+  </section>
+
+  <!-- Form Section -->
+  <main>
+    <h2>User Registration Form</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Your Name" required minlength="3"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Account Details</legend>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="4" maxlength="12"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required minlength="6"><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">--Select--</option>
+          <option value="et">Ethiopia</option>
+          <option value="af">Africa</option>
+          <option value="ke">Kenya</option>
+        </select><br><br>
+
+        <p>Newsletter Subscription:</p>
+        <label><input type="radio" name="newsletter" value="yes" required> Yes</label>
+        <label><input type="radio" name="newsletter" value="no"> No</label><br><br>
+
+        <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+      </fieldset>
+
+      <br>
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
+    </form>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HTML5 Forms Chege. All rights reserved.</p>
+  </footer>
+</body>
+</html>
